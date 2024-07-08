@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+    <title>Restaurant Management System - Login</title>
+    <style>
+*/
+body {
+    background-color: #f2edf7; /* Lavender background color
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+}
+h1 {
+    color: #6a0dad; /* Lavender color */
+    margin-bottom: 30px;
+}
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+label {
+    display: block;
+    color: #495057;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="password"] {
+             width: calc(100% - 20px);
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        button[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #6a0dad; /* Lavender color */
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button[type="submit"]:hover {
+            background-color: #4b078d; /* Complementary color */
+        }
+        .links {
+            margin-top: 20px;
+}
+.links a {
+            color: #6a0dad; /* Lavender color */
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .links a:hover {
+            color: #4b078d; /* Complementary color */
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Welcome to Restaurant Management System</h1>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"
+placeholder="Enter your username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+
+                 <input type="password" id="password" name="password"
+placeholder="Enter your password" required>
+</div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="links">
+            <a href="#">Forgot Password?</a>
+            <a href="#">Create New User</a>
+        </div>
+    </div>
+</body>
+</html>
+Dashboard
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+    <title>Restaurant Management System - Dashboard</title>
+    <style>
+*/
+body {
+    background-color: #f2edf7; /* Lavender background color
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.dashboard-header {
+    background-color: #6a0dad; /* Lavender color */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.dashboard-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+             padding: 20px;
+            margin: 20px;
+            flex: 1 0 300px;
+            text-align: center;
+        }
+        .service-card h2 {
+            color: #6a0dad; /* Lavender color */
+            margin-bottom: 10px;
+        }
+        .service-card p {
+            color: #495057;
+            margin-bottom: 20px;
+        }
+        .service-card a {
+            color: #ffffff;
+            background-color: #6a0dad; /* Lavender color */
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .service-card a:hover {
+            background-color: #4b078d; /* Complementary color */
+} </style>
+</head>
+<body>
+    <div class="dashboard-header">
+        <h1>Restaurant Management System Dashboard</h1>
+    </div>
+    <div class="dashboard-container">
+        <div class="service-card">
+            <h2>Order Management</h2>
+            <p>Manage incoming orders, track order status, and update
+order progress.</p>
+            <a href="#">Go to Orders</a>
+        </div>
+        <div class="service-card">
+            <h2>Inventory Management</h2>
+            <p>Track inventory levels, add new items, and update
+stock quantities.</p>
+            <a href="#">Go to Inventory</a>
+        </div>
+        <div class="service-card">
+            <h2>Employee Management</h2>
+            <p>Manage staff schedules, track hours worked, and update
+employee details.</p>
+            <a href="#">Go to Employees</a>
+
+         </div>
+        <div class="service-card">
+            <h2>Report Generation</h2>
+            <p>Generate reports on sales performance, inventory
+usage, and customer trends.</p>
+            <a href="#">Generate Reports</a>
+        </div>
+    </div>
+</body>
+</html>
+Order Tracking
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+    <title>Order Management - Restaurant Management System</title>
+    <style>
+*/
+body {
+    background-color: #f2edf7; /* Lavender background color
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.order-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.order {
+    background-color: #ffffff; /* White background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.order h2 {
+    color: #6a0dad; /* Lavender color */
+    margin-top: 0;
+}
+.order-details {
+    margin-bottom: 10px;
+}
+
+         .order-items {
+            margin-bottom: 10px;
+        }
+        .order-item {
+            color: #343a40; /* Dark gray color */
+            margin-bottom: 5px;
+        }
+        .order-type {
+            font-weight: bold;
+            color: #6a0dad; /* Lavender color */
+        }
+        .order-status {
+            color: #007bff; /* Blue color */
+        }
+    </style>
+</head>
+<body>
+    <div class="order-container">
+5</p>
+<div class="order">
+    <h2>Order #1</h2>
+    <div class="order-details">
+        <p><span class="order-type">Eat-In</span> - Table
+                <p>Status: <span
+class="order-status">Pending</span></p>
+            </div>
+            <div class="order-items">
+                <div class="order-item">1 x Margherita Pizza</div>
+                <div class="order-item">2 x Spaghetti Bolognese</div>
+                <div class="order-item">1 x Tiramisu</div>
+            </div>
+        </div>
+        <div class="order">
+            <h2>Order #2</h2>
+            <div class="order-details">
+                <p><span class="order-type">Take-Away</span></p>
+                <p>Status: <span class="order-status">Ready for
+Pickup</span></p>
+            </div>
+            <div class="order-items">
+                <div class="order-item">1 x Cheeseburger</div>
+                <div class="order-item">1 x French Fries</div>
+                <div class="order-item">1 x Chocolate Milkshake</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
